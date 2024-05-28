@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 100;
+font-style: normal;
+}
+.card1 {
+	display: inline-block;
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	height: 300px;
+    border: 5px solid black;
+    background-image: url("img/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    box-sizing: border-box;
+    
+}
+.cards{
+    width: 70%;
+    margin: auto; 
+    box-sizing: border-box;
+    padding: 0;
+}
+img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+	vertical-align: top;
+}
+body {
+	background-color: #ffffff;
+	text-align: center;
+   padding: 0px;
+    margin: 0;
+}
+h2 {
+	text-align: center;
+}
+.button {
+    border: solid rgb(255, 255, 255); 
+	text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80%;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+
+h2 {
+	margin-top: 100px;
+    display: inline-block;
+	color: #ffffff;
+	font-size: 70px;
+}
+.znakr {
+	display: inline;
+	vertical-align: super;
+}
+.kartinka {
+    background-image: url("img/1.jpg");
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+    }
+    .menuitem {
+        margin: 1%;
+        font-size: 25px;
+        text-decoration: none;
+        color: #000000;
+        vertical-align: middle;
+        padding: 5px;
+        display: inline-block; 
+    }
+    .menu {
+        padding: 5px;
+        width: 70%;
+        height: 75px;
+        vertical-align: middle;
+        margin: auto;
+        display: inline-block; 
+    }
+.Novinka{
+    width: 100%;
+    height: 800px;
+    background-color: #950818; 
+    color: #ffffff; 
+    text-align: top;
+}
+.NLEVO {
+    margin-left:15% ;
+margin-top: 20 px;
+width: 30%;
+text-align:left;
+display: inline-block ;
+transform: translate(0px,-50px);
+} 
+.NBPRAVO {
+    margin-left:5% ;
+margin-top: 20 px;
+width: 40%;
+text-align: left;
+background-image: url("img/2.jpg");
+display: inline-block ;
+background-repeat: no-repeat;
+height: 500px;
+background-position: center;
+background-size: contain;
+vertical-align:bottom;
+transform: translate(0px,80px);
+}
+    
